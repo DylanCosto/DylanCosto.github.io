@@ -1,6 +1,9 @@
 title: "MolWiz Lab Notes"
 description: "Bench‑tested answers to molecular biology’s most common questions."
-theme: jekyll-theme-minima
+remote_theme: caesar1181/minima-dark@main
+plugins:
+  - jekyll-remote-theme
+
 
 
 
