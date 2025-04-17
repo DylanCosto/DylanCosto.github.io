@@ -1,3 +1,4 @@
-title: "My Lab FAQ Blog"
+title: "Molecular Lab FAQ"
 description: "Practical, data‑driven answers to bench FAQs."
-theme: minima
+theme: jekyll-theme-midnight
+
