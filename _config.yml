@@ -1,4 +1,5 @@
 title: "Molecular Lab FAQ"
 description: "Practical, data‑driven answers to bench FAQs."
-theme: jekyll-theme-midnight
+remote_theme: johno/cayman-dark
+
 
