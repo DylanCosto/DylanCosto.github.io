@@ -1,10 +1,10 @@
-
 ---
 title: Home
 layout: default
+permalink: /
 ---
 
 # Welcome to MolWiz
 
-This is where we test molecular biology assumptions—so you don’t have to.  
-Explore real experiments on reagent stability, technique optimization, and more.
+Real data, real experiments—so you don’t have to guess.  
+Explore our FAQs, deep‑dives, and lab hacks below.
