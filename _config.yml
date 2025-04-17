@@ -1,8 +1,7 @@
-title: "Molecular Lab FAQ"
-description: "Practical, data‑driven answers to bench FAQs."
-remote_theme: son-link/jekyll-simple-dark@0.4.0
-plugins:
-  - jekyll-remote-theme
+# _config.yml
+title: "MolWiz Lab Notes"
+description: "Bench‑tested answers to molecular biology’s most common questions."
+theme: jekyll-theme-slate
 
 
 
