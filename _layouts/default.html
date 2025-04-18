@@ -95,20 +95,24 @@
       margin: 2em auto;
       padding: 0 1.5em;
     }
-    
-    .post-card {
-  background: var(--card-bg);
-  border-radius: 8px;
-  padding: 1.5em;
-  margin-bottom: 1.5em;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
 
-  /* New styles to extend past margins */
-  width: calc(100% + 3em); /* Extend beyond the container width */
-  margin-left: -1.5em; /* Offset to the left */
-  margin-right: -1.5em; /* Offset to the right */
-}
+    .post-cards-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; /* Allows wrapping to next line if needed */
+      gap: 1.5em;      /* Space between cards */
+    }
+
+    .post-card {
+      background: var(--card-bg);
+      border-radius: 8px;
+      padding: 1.5em;
+      /* Remove margin-bottom if using gap on container */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      /* Optional: set a fixed width for cards */
+      /* width: 250px; */
+    }
     
     .post-card:hover {
       transform: translateY(-5px);
@@ -190,7 +194,9 @@
     </div>
   </header>
   <main>
-    {{ content }}
+    <div class="post-cards-container">
+      {{ content }}
+    </div>
   </main>
   <footer>
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
