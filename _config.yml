@@ -1,6 +1,5 @@
 title: "MolWiz Lab Notes"
 description: "Bench‑tested answers to molecular biology’s most common questions."
-# Remove any existing `theme:` or `remote_theme:` lines
 markdown: kramdown
 permalink: /:path/
 
