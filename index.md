@@ -6,7 +6,7 @@ permalink: /
 
 # Welcome to MolFAQ
 
-Real data, real experiments.  
+Real data - Real experiments.  
 Don't forget to leave suggestions!
 
 ## Recent Experiments

@@ -1,7 +1,7 @@
 # _config.yml
 
 title: "MolFAQ"
-description: "Bench‑tested answers to molecular biology's most common questions."
+description: "Reliable answers to molecular biology’s most frequently asked questions.."
 url: "https://dylancosto.github.io" # Add your actual domain
 baseurl: ""
 logo: "/assets/images/logo.png" # Add a logo file later
