@@ -8,23 +8,34 @@
     body { background: #1e1e1e; color: #f2f2f2; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     a { color: #f2f2f2; text-decoration: none; }
     header, nav, footer { background: #1e1e1e; }
-    header { padding: 1em; }
-    nav { padding: 0.5em 1em; }
-    nav a { margin-right: 1em; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1em;
+    }
+    nav {
+      display: flex;
+      gap: 1em;
+      padding: 0;
+    }
+    nav a { margin: 0; }
     main { padding: 2em; }
     footer { padding: 1em; text-align: center; font-size: 0.9em; }
   </style>
 </head>
 <body>
   <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
+    <div>
+      <h1 style="margin: 0;"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p style="margin: 0; font-size: 0.9em;">{{ site.description }}</p>
+    </div>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/experiments/' | relative_url }}">Experiments</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
   </header>
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/experiments/' | relative_url }}">Experiments</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
-  </nav>
   <main>
     {{ content }}
   </main>
