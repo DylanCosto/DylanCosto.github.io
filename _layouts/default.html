@@ -97,13 +97,18 @@
     }
     
     .post-card {
-      background: var(--card-bg);
-      border-radius: 8px;
-      padding: 1.5em;
-      margin-bottom: 1.5em;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+
+  /* New styles to extend past margins */
+  width: calc(100% + 3em); /* Extend beyond the container width */
+  margin-left: -1.5em; /* Offset to the left */
+  margin-right: -1.5em; /* Offset to the right */
+}
     
     .post-card:hover {
       transform: translateY(-5px);
