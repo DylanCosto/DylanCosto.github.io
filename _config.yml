@@ -1,12 +1,9 @@
+# _config.yml
+
 title: "MolWiz Lab Notes"
 description: "Bench‑tested answers to molecular biology’s most common questions."
 markdown: kramdown
 permalink: /:path/
 
-
-
-
-
-
-
-
+# <- Add this to turn off the built‑in Primer theme
+theme: null
