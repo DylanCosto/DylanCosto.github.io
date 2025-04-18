@@ -1,9 +1,50 @@
 # _config.yml
 
 title: "MolWiz Lab Notes"
-description: "Bench‑tested answers to molecular biology’s most common questions."
-markdown: kramdown
-permalink: /:path/
+description: "Bench‑tested answers to molecular biology's most common questions."
+url: "https://dylancosto.github.io" # Add your actual domain
+baseurl: ""
+logo: "/assets/images/logo.png" # Add a logo file later
 
-# <- Add this to turn off the built‑in Primer theme
+# SEO settings
+author:
+  name: Dylan Costo
+  twitter: # Your Twitter handle (optional)
+twitter:
+  username: # Your Twitter handle (optional)
+  card: summary
+social:
+  name: Dylan Costo
+  links:
+    # - https://twitter.com/yourusername
+    # - https://github.com/DylanCosto
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
 theme: null
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  experiments:
+    output: true
+    permalink: /experiments/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
