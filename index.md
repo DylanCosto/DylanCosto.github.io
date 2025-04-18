@@ -4,10 +4,10 @@ layout: default
 permalink: /
 ---
 
-# Welcome to MolWiz
+# Welcome to MolFAQ
 
-Real data, real experiments—so you don't have to guess.  
-Explore our FAQs, deep‑dives, and lab hacks below.
+Real data, real experiments.  
+Don't forget to leave suggestions!
 
 ## Recent Experiments
 
