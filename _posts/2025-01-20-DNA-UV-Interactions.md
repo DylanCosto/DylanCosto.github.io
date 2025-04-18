@@ -1,10 +1,10 @@
 ---
-title: "DNA and UV"
+title: "DNA & UV"
 layout: post
 date: 2025-01-20
 tags: []
 author: Dylan Costo
-description: "Does UV render DNA useless for amplification?"
+description: "Does lab UV Exposure render DNA useless for amplification? We test varying amounts of UV exposure on unprotected purified DNA."
 ---
 
 ## Background
