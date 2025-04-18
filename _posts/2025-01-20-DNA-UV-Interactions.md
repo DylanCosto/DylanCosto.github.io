@@ -1,9 +1,8 @@
-
 ---
 title: "DNA and UV"
 layout: post
 date: 2025-01-20
-tags: 
+tags: []
 author: Dylan Costo
 description: "Does UV render DNA useless for amplification?"
 ---
