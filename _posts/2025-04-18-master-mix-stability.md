@@ -2,7 +2,7 @@
 title: "Master Mix Stability at Room Temperature"
 layout: post
 date: 2025-04-18
-tags: [MasterMix, PCR, LabHacks]
+tags: [MasterMix, PCR]
 author: Dylan Costo
 description: "Real-world testing of PCR master mix stability at room temperature beyond vendor specifications"
 ---
