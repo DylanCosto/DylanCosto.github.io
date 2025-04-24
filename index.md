@@ -6,8 +6,12 @@ permalink: /
 
 # Welcome to MolFAQ
 
-Real data - Real experiments.  
-Don't forget to leave suggestions!
+MolFAQ is a hands-on resource for real-world molecular biology experiments. We test common questions that others wouldn't dare do in front of their PI's or lab supervisors.
+
+Note: All of the experiments are to be taken with a grain of salt and are not representative of every lab, they are tailored for curious individuals. 
+
+Note2: We will be stretching manufacture recommendations not to "debunk" their recommendations, but rather find cost or time saving alternatives. This does not mean the manufacture is negligent as they validate their protocols with commonality, such as storing reagents in a -20c freezer, when they could be stable at RT or 4c. 
+
 
 ## Recent Experiments
 
