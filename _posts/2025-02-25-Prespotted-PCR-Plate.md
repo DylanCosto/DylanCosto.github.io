@@ -2,13 +2,13 @@
 title: "Pre-Spotted PCR plate stability "
 layout: post
 date: 2025-02-25
-tags: []
+tags: [PCR]
 author: Dylan Costo
-description: "Can Pre-spotted PCR plates be reused after thermocycling if un-used wells were not rehydrated?"
+description: "Can Pre-spotted PCR plates be reused after thermocycling if un-used wells were not hydrated?"
 ---
 ## Introduction
 
-Pre-spotted PCR plates are commonly used in molecular biology for high-throughput experiments. These plates contain pre-dispensed reagents in specific wells, simplifying experimental workflows.
+Pre-spotted PCR plates are commonly used in molecular biology for high-throughput experiments. These plates contain pre-dispensed reagents such as master mix and probes. The disadvatanages to these plates is that they are mainly applicable for high-throughout assays and it's assumed that unused wells and their contents are rendered useless after thermocyling. Let's put that to the test. 
 
 ## Objective
 

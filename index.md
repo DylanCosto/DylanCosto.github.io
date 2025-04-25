@@ -12,8 +12,6 @@ Note: All of the experiments are to be taken with a grain of salt and are not re
 
 Note2: We will be stretching manufacture recommendations not to "debunk" their recommendations, but rather find cost or time saving alternatives. This does not mean the manufacture is negligent as they validate their protocols with commonality, such as storing reagents in a -20c freezer, when they could be stable at RT or 4c. 
 
-We hope you learn something! If you have any suggestions on experiments, do not hesistate to contact us.
-
 
 ## Recent Experiments
 
