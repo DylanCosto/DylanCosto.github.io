@@ -39,6 +39,8 @@
       position: sticky;
       top: 0;
       z-index: 100;
+      /* Added solid background to prevent content showing through */
+      backdrop-filter: blur(5px);
     }
     
     .header-container {
@@ -93,7 +95,8 @@
     main {
       max-width: 800px;
       margin: 2em auto;
-      padding: 0 1.5em;
+      /* Increased top padding to create more space between header and content */
+      padding: 2em 1.5em 0;
     }
 
     .post-cards-container {
@@ -165,6 +168,20 @@
     }
     p {
     margin-bottom: 0.3em;
+    }
+
+    /* Post specific styles to prevent header overlap */
+    .post-header {
+      margin-bottom: 2em;
+      /* Added padding to keep title away from header */
+      padding-top: 1em;
+    }
+    
+    .post-title {
+      margin-bottom: 0.2em;
+      color: var(--accent-color);
+      /* Extra padding for the title */
+      padding-top: 0.5em;
     }
 
     /* Responsive design */
