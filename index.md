@@ -4,7 +4,7 @@ layout: default
 permalink: /
 ---
 
-# Welcome to MolFAQ
+<h1 style="color: var(--accent-color);">Welcome to MolFAQ</h1>
 
 MolFAQ is a hands-on resource for real-world molecular biology experiments. We test common questions that others wouldn't dare do in front of their PI's or lab supervisors.
 
