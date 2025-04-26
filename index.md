@@ -6,11 +6,11 @@ permalink: /
 
 <h1 style="color: var(--accent-color);">Welcome to MolFAQ</h1>
 
-<h1 style="color: var(--accent-color);">MolFAQ</h1> is a hands-on resource for real-world molecular biology experiments. We test common questions that others wouldn't dare do in front of their PI's or lab supervisors.
+MolFAQ is a hands-on resource for real-world molecular biology experiments. We test common questions that others wouldn't dare do in front of their PI's or lab supervisors.
 
-Note: All of the experiments are to be taken with a grain of salt and are not representative of every lab, they are tailored for curious individuals. 
+<span style="color: var(--accent-color);">Note</span>: All of the experiments are to be taken with a grain of salt and are not representative of every lab, they are tailored for curious individuals. 
 
-Note2: We will be stretching manufacture recommendations not to "debunk" their recommendations, but rather find cost or time saving alternatives. This does not mean the manufacture is negligent as they validate their protocols with commonality, such as storing reagents in a -20c freezer, when they could be stable at RT or 4c. 
+<span style="color: var(--accent-color);">Note2</span>: We will be stretching manufacture recommendations not to "debunk" their recommendations, but rather find cost or time saving alternatives. This does not mean the manufacture is negligent as they validate their protocols with commonality, such as storing reagents in a -20c freezer, when they could be stable at RT or 4c. 
 
 
 ## Recent Experiments
