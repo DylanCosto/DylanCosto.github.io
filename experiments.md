@@ -26,6 +26,14 @@ permalink: /experiments/
     padding: 1.5em;
     margin-bottom: 1.5em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 250px; /* Fixed height for consistency */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
   }
   
   .post-meta {
@@ -34,11 +42,17 @@ permalink: /experiments/
     margin-bottom: 0.5em;
   }
   
+  .post-card p {
+    flex-grow: 1; /* Makes the description take up remaining space */
+    margin-bottom: 1em;
+    overflow: hidden; /* Prevents text from overflowing */
+  }
+  
   .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em;
-    margin-top: 1em;
+    margin-top: auto; /* Pushes tags to the bottom */
   }
   
   .tag {
