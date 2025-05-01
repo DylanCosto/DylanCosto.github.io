@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Essential meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+
+  <!-- MathJax (loads only when needed or when globally enabled in _config.yml) -->
+  {% if page.usemathjax or site.kramdown.math_engine == "mathjax" %}
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+          id="MathJax-script" async></script>
+  {% endif %}
+
   <style>
     :root {
       --bg-color: #1e1e1e;
@@ -12,33 +20,39 @@
       --secondary-color: #d7ebfc;
       --card-bg: #2d2d2d;
     }
-    
-    body { 
-      background: var(--bg-color); 
-      color: var(--text-color); 
-      margin: 0; 
-      padding: 0; 
+
+    /* ---------- Global typography & layout ---------- */
+    body {
+      background: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
     }
-    
-    a { 
-      color: var(--accent-color); 
-      text-decoration: none; 
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
       transition: color 0.3s;
     }
-    
+
     a:hover {
       color: var(--secondary-color);
     }
-    
+
+    p {
+      margin-bottom: 0.1em;
+    }
+
+    /* ---------- Header ---------- */
     header {
       background: var(--bg-color);
       padding: 1em;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       z-index: 100;
     }
-    
+
     .header-container {
       display: flex;
       align-items: center;
@@ -46,33 +60,33 @@
       max-width: 1200px;
       margin: 0 auto;
     }
-    
+
     .site-title {
       margin: 0;
       font-size: 1.5rem;
     }
-    
+
     .site-title a {
       color: var(--text-color);
     }
-    
+
     .site-description {
       margin: 0.2em 0 0;
       font-size: 0.9em;
       color: #bbb;
     }
-    
+
     nav {
       display: flex;
       gap: 1.5em;
     }
-    
-    nav a { 
+
+    nav a {
       color: var(--text-color);
       font-weight: 500;
       position: relative;
     }
-    
+
     nav a:after {
       content: '';
       position: absolute;
@@ -83,11 +97,12 @@
       background-color: var(--accent-color);
       transition: width 0.3s;
     }
-    
+
     nav a:hover:after {
       width: 100%;
     }
-    
+
+    /* ---------- Main content ---------- */
     main {
       max-width: 800px;
       margin: 2em auto;
@@ -105,29 +120,29 @@
       background: var(--card-bg);
       border-radius: 8px;
       padding: 1.5em;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s;
       width: 100%;
       box-sizing: border-box;
     }
-    
+
     .post-card:hover {
       transform: translateY(-5px);
     }
-    
+
     .post-meta {
       color: #aaa;
       font-size: 0.9em;
       margin-bottom: 0.5em;
     }
-    
+
     .tags {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5em;
       margin-top: 1em;
     }
-    
+
     .tag {
       background: #444;
       color: #ddd;
@@ -135,7 +150,8 @@
       border-radius: 4px;
       font-size: 0.8em;
     }
-    
+
+    /* ---------- Footer ---------- */
     footer {
       text-align: center;
       padding: 2em;
@@ -144,33 +160,43 @@
       color: #999;
       border-top: 1px solid #333;
     }
-    
-    /* Code styling */
+
+    /* ---------- Code blocks ---------- */
     pre, code {
       background: #2b2b2b;
       border-radius: 4px;
       font-family: 'Courier New', Courier, monospace;
     }
-    
+
     pre {
       padding: 1em;
       overflow-x: auto;
     }
-    
+
     code {
       padding: 2px 5px;
     }
-    p {
-    margin-bottom: 0.1em;
+
+    /* ---------- Markdown table styling ---------- */
+    table {
+      border-collapse: collapse;
+      margin: 1rem 0;
+      width: 100%;
     }
 
-    /* Responsive design */
+    th, td {
+      border: 1px solid #555;
+      padding: 4px 8px;
+      text-align: left;
+    }
+
+    /* ---------- Responsive ---------- */
     @media (max-width: 768px) {
       .header-container {
         flex-direction: column;
         align-items: flex-start;
       }
-      
+
       nav {
         margin-top: 1em;
         width: 100%;
@@ -193,11 +219,13 @@
       </nav>
     </div>
   </header>
+
   <main>
     <div class="post-cards-container">
       {{ content }}
     </div>
   </main>
+
   <footer>
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
   </footer>

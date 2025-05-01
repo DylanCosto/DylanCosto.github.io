@@ -1,6 +1,7 @@
 ---
-title: "DNA/RNA & UV                            "
+title: "RNA & UV                            "
 layout: post
+usemathjax: true
 date: 2025-01-20
 tags: []
 author: Dylan Costo

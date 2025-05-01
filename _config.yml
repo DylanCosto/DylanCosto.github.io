@@ -1,17 +1,16 @@
 # _config.yml
-
 title: "MolFAQ"
 description: "Reliable answers to molecular biology’s most frequently asked questions"
-url: "https://dylancosto.github.io" # Add your actual domain
-baseurl: ""
-logo: "/assets/images/logo.png" # Add a logo file later
+url: "https://dylancosto.github.io"
+baseurl: ""        # leave blank for root
+logo: "/assets/images/logo.png"
 
 # SEO settings
 author:
   name: Dylan Costo
-  twitter: # Your Twitter handle (optional)
+  twitter:          # (optional) add handle if you have one
 twitter:
-  username: # Your Twitter handle (optional)
+  username:
   card: summary
 social:
   name: Dylan Costo
@@ -19,24 +18,36 @@ social:
     # - https://twitter.com/yourusername
     # - https://github.com/DylanCosto
 
-# Build settings
-markdown: kramdown
+# ---------------------------------
+# Build & Markdown settings
+# ---------------------------------
+markdown: kramdown        # keep kramdown
+kramdown:
+  input: GFM             # GitHub-Flavoured Markdown (tables, task-lists, etc.)
+  math_engine: mathjax   # enable MathJax for LaTeX \( … \) and $$ … $$ blocks
+
 permalink: /:categories/:title/
 theme: null
 
+# ---------------------------------
 # Plugins
+# ---------------------------------
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-feed          # RSS/Atom
+  - jekyll-sitemap       # /sitemap.xml
+  - jekyll-seo-tag       # meta tags for SEO
 
+# ---------------------------------
 # Collections
+# ---------------------------------
 collections:
   experiments:
     output: true
     permalink: /experiments/:path/
 
+# ---------------------------------
 # Default front matter
+# ---------------------------------
 defaults:
   - scope:
       path: ""
