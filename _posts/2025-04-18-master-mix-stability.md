@@ -9,23 +9,25 @@ description: "Real-world testing of PCR master mix stability at room temperature
 
 ## Background
 
-Commercial PCR master mix vendors typically recommend keeping their products on ice during preparation and state an 8-hour room temperature stability window. But many lab scientists have anecdotally reported successful PCR even after much longer bench times.
+Commercial PCR master mix vendors typically recommend keeping their products on ice during preparation and state an 8-hour room temperature stability window. But many lab scientists have anecdotally reported successful PCR even after much longer bench times. My PI, for example, returned a delivery of master mix after it had been delivered over the weekend and kept at room temperature, should she have? We test a few commerical master mixes left at room temperature for varying intervals, as described below. 
 
-I decided to test this systematically to determine just how stable these mixes really are.
 
 ## Experimental Design
 
 I tested three popular master mixes:
-1. **FastTaq 2X Master Mix** (ThermoGenix)
-2. **OneTaq 2X Master Mix** (New England Biolabs)
+1. **TaqPath ProAmp Master Mix** (Applied Biosystems)
+2. **TaqMan Fast Advanced Master Mix** (Applied Biosystems)
 3. **GoTaq Green 2X Master Mix** (Promega)
 
-Each mix was aliquoted and stored at:
-- Room temperature (22-24°C) for 8h, 24h, 48h, and 72h
-- Refrigerated (4°C) control
-- Ice (0°C) control
 
-After the designated storage time, standard PCR was performed using a 500bp fragment of bacteriophage lambda DNA.
+
+
+Each Master Mix was aliquoted and stored at:
+- Room temperature (22-24°C) for 0h, 24h, 48h, and 72h
+- Freezer (-20°C) control
+
+After the designated storage time, qPCR was performed using both a synthetic positive and a human positive.
+Note: All of the commerical master mixes have RT-ase; It's expected to be the limiting factor in terms of stability
 
 ## Results
 
