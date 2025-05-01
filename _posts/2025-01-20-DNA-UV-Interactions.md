@@ -102,7 +102,9 @@ The synthetic control is theoretically expected to perform better and maintain a
 
 Interestingly, you can see that the human control RNA, when exposed to direct UV-C without shielding, does not follow a conventional exponential and platoe curve. This could be caused by a decrease in effective intact copy number preventing it from exponentiating cleanly. 
 
-![UV Ct Curve]({{ "/assets/images/image-1.png" | relative_url }})
+## UV Dose Curve
+![UV Ct Curve]({{ "/assets/images/UV-DNA_Curve.png" | relative_url }})
+
 
 
 ### Conclusion
