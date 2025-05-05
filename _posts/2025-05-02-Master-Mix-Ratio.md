@@ -39,7 +39,7 @@ Each master mix was added with the following ratios:
 3. **1ul-MM : 4ul H20: 5ul-Synthetic control**
 4. **0.1ul-MM : 4.9ul H20: 5ul-Synthetic control**
 
-> **Note:** 0.1 ul is difficult and innacurate to pipette, results may vary significantly with subsequent repetitions. 
+**Note:** 0.1 ul is difficult and innacurate to pipette, results may vary significantly with subsequent repetitions. 
 ---
 
 
