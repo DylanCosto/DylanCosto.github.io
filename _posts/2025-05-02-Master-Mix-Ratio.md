@@ -39,9 +39,9 @@ Each master mix was added with the following ratios:
 3. **1ul-MM : 4ul H20: 5ul-Synthetic control**
 4. **0.1ul-MM : 4.9ul H20: 5ul-Synthetic control**
 
-**Note:** 0.1 ul is difficult and innacurate to pipette, results may vary significantly with subsequent repetitions. 
----
+<span style="font-size:0.95em; color:#aaa;"><strong>Note:</strong> 0.1 ul is difficult and innacurate to pipette, results may vary significantly with subsequent repetitions.</span>
 
+---
 
 
 
@@ -51,7 +51,7 @@ Each master mix was added with the following ratios:
 
 Ct values:
 
-| Master Mix | MM vol (10 µL)* | FAM Ct     | &nbsp;Quasar 670 Ct&nbsp; | &nbsp;Orange 560 Ct&nbsp; | &nbsp;Red 610 Ct&nbsp; |
+| Master Mix | MM vol (10 µL)* | FAM Ct     | &nbsp;Quasar 670 Ct&nbsp; | &nbsp;Orange 560 Ct&nbsp; | &nbsp;Red 610 Ct&nbsp; |
 |------------|-----------------|----------------|--------------------------|--------------------------|------------------------|
 | **TaqPath ProAmp** | 5 µL  | 24.09 | &nbsp;N/A&nbsp; | &nbsp;22.61&nbsp; | &nbsp;N/A&nbsp; |
 |              | 2.5 µL | 25.85 | &nbsp;N/A&nbsp; | &nbsp;24.13&nbsp; | &nbsp;N/A&nbsp; |
@@ -87,7 +87,7 @@ Interestingly, you can see that the human control RNA, when exposed to direct UV
 
 ### Conclusion
 
-Direct exposure to high intensity UV-C did not prevent amplification for both the direct UV-exposed RNA, or the RNA stored in PP microcentrifuge tubes. The UV-C did increase Ct by approximately 3-4 cycles in both the synthetic and human RNA control. 
+Direct exposure to high intensity UV-C did not prevent amplification for both the direct UV-exposed RNA, or the RNA stored in PP microcentrifuge tubes. The UV-C did increase Ct by approximately 3-4 cycles in both the synthetic and human RNA control.
 
 
 
